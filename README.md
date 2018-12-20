@@ -26,9 +26,9 @@ Add this script to your project.
  	void Start () {
 
             products = new List<MyProduct>();
-            products.Add(new MyProduct {ProductName= "com.alican.duckhunter.para0001", ProductType= ProductType.Consumable });
-            products.Add(new MyProduct { ProductName = "com.alican.duckhunter.para0002", ProductType = ProductType.Consumable });
-            products.Add(new MyProduct { ProductName = "com.alican.duckhunter.para0003", ProductType = ProductType.Consumable });
+            products.Add(new MyProduct {ProductName= "com.item.youritem1", ProductType= ProductType.Consumable });
+            products.Add(new MyProduct { ProductName = "com.item.youritem2", ProductType = ProductType.Consumable });
+            products.Add(new MyProduct { ProductName = "com.item.youritem3", ProductType = ProductType.Consumable });
 
 
             inapp = new KUKLACI.Purchaser(products);
